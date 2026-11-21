@@ -1,0 +1,61 @@
+# Configuracoes privadas; preservar o exemplo publico.
+.env
+.env.*
+!.env.example
+
+# Segredos do Streamlit, sem ocultar config.toml.
+secrets.toml
+.streamlit/secrets.toml
+
+# Ambientes virtuais.
+.venv/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+.tox/
+.nox/
+
+# Bytecode e caches Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs.
+logs/
+*.log
+*.log.*
+
+# Temporarios e copias locais.
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Diretorios reservados para material privado/local.
+privado/
+credenciais/
+relatorios-locais/
+snapshots-locais/
+backups/
+temporarios/
+
+# Configuracoes pessoais de IDE.
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos auxiliares do sistema operacional.
+.DS_Store
+Thumbs.db
+Desktop.ini
