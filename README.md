@@ -8,11 +8,15 @@
 - Giovanni Monarin Pinheiro
 - Emerson da Silva Celestino
 
-Esta versão para avaliação pública é uma seleção revisada dos arquivos do projeto, sem o histórico Git original. A preparação local não significa que o repositório ou o aplicativo já tenham sido publicados.
+O **Vision Tech** é um sistema de gestão desenvolvido para centralizar e organizar as operações de uma assistência técnica, integrando o gerenciamento de clientes, equipamentos, técnicos, ordens de serviço e serviços executados em uma única plataforma.
+
+A solução oferece uma interface administrativa para controle dos atendimentos e um painel dedicado aos técnicos, permitindo consultar ordens de serviço atribuídas e atualizar o andamento das atividades conforme as permissões de acesso.
+
+Desenvolvido com **Python e Streamlit**, integrado ao backend **Xano**, o sistema adota uma arquitetura baseada em APIs, com controle de acesso por perfil e organização dos dados em módulos interligados.
 
 ## 1. Apresentação
 
-Aplicação acadêmica para organizar uma assistência técnica: cadastrar clientes e equipamentos, distribuir ordens de serviço entre técnicos e registrar os serviços executados.
+Aplicação com o objetivo de organizar uma assistência técnica: cadastrar clientes e equipamentos, distribuir ordens de serviço entre técnicos e registrar os serviços executados.
 
 O sistema atende uma única assistência técnica e possui cinco módulos: **Clientes, Equipamentos, Técnicos, Ordens de Serviço e Serviços**. O painel **Minhas Ordens** oferece ao técnico a consulta dos atendimentos atribuídos a ele.
 
@@ -276,7 +280,7 @@ Este é um cenário ilustrativo, não uma confirmação de que todas as etapas f
 - Atendimento de uma única assistência técnica, sem separação operacional entre empresas.
 - Sem cálculo automático do valor total da OS a partir dos Serviços.
 - Verificações adicionais de segurança permanecem pendentes; esta documentação não declara seu encerramento integral.
-- Esta versão pública reúne os arquivos selecionados para avaliação acadêmica. O histórico Git original do desenvolvimento permanece preservado separadamente.
+- Esta seleção revisada não inclui o histórico Git original e ainda aguarda autorização de publicação.
 
 ### Melhorias futuras
 
