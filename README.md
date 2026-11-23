@@ -1,4 +1,4 @@
-# Sistema de Assistência Técnica
+﻿# Sistema de Assistência Técnica
 
 **Vision Tech — ADS 2º B**
 
@@ -37,7 +37,7 @@ Documentos públicos previstos, ainda pendentes de inclusão: [visão do projeto
 
 **Não há versão publicada do aplicativo.** A execução é local e depende do backend Xano privado e de uma conta previamente autorizada. Instalar o frontend não cria o backend nem usuários.
 
-**Vídeo de demonstração:** [CONFIRMAR: disponibilizar o vídeo e inserir sua referência pública]. O funcionamento com o backend será apresentado nesse material.
+**Vídeo de demonstração:** [Assistir à apresentação do Vision Tech](https://youtu.be/GawhcxvqhPY). O funcionamento com o backend será apresentado nesse material.
 
 ### Instalação no Windows
 
@@ -170,3 +170,56 @@ Os exemplos não criam registros automaticamente. Na apresentação, utilize dad
 - Concluir a disponibilização segura das exclusões de Técnicos e OS.
 
 Essas melhorias não são funcionalidades disponíveis. Não compartilhar ambientes virtuais, configurações pessoais, senhas, tokens, logs brutos ou capturas com dados pessoais.
+
+
+
+## 8. Estrutura e documentação do projeto
+
+O repositório contém uma seleção revisada dos arquivos do desenvolvimento acadêmico.
+
+### OpenSpec
+
+A pasta `openspec/` reúne o planejamento incremental do sistema:
+
+- `openspec/specs/`: especificações das funcionalidades.
+- `openspec/changes/`: propostas, decisões técnicas e tarefas de evolução.
+- `openspec/changes/archive/`: alterações arquivadas durante o desenvolvimento.
+
+### XanoScript
+
+A pasta `xano/` contém uma seleção das definições do backend Xano:
+
+- `xano/api/`: definições de endpoints dos módulos.
+- `xano/function/`: funções auxiliares.
+- `xano/table/`: definições de tabelas.
+
+Esses arquivos documentam parte da implementação e não constituem um backup completo do workspace Xano.
+
+### Orientações para desenvolvimento
+
+O arquivo `AGENTS.md` registra instruções e convenções utilizadas no desenvolvimento.
+
+### Histórico de versões
+
+Este repositório público utiliza um histórico Git independente do projeto original, para evitar a publicação de informações sensíveis presentes em versões anteriores.
+
+
+## 9. Desenvolvimento com Codex e OpenSpec
+
+O projeto utilizou o Codex como assistente de programação, em conjunto com o OpenSpec para organizar o desenvolvimento incremental.
+
+### Habilidades do Codex
+
+A pasta `.agents/skills/` contém seis habilidades do OpenSpec:
+
+- `openspec-explore`: exploração de ideias e requisitos.
+- `openspec-propose`: elaboração de propostas de alteração.
+- `openspec-apply-change`: implementação das alterações planejadas.
+- `openspec-update-change`: atualização das propostas existentes.
+- `openspec-sync-specs`: sincronização das especificações.
+- `openspec-archive-change`: arquivamento das alterações concluídas.
+
+O arquivo `AGENTS.md` reúne orientações para o trabalho com agentes de programação.
+
+As propostas, tarefas, especificações e alterações arquivadas podem ser consultadas na pasta `openspec/`.
+
